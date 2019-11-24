@@ -1,6 +1,5 @@
 <?php require 'config.php'; ?>
 
-
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <meta charset="UTF-8">
@@ -145,12 +144,9 @@
 	<!--envio de e-mail-->
 	<article id="contact" class="wrapper style4">
 
-
 	<?php
 
-
 	$user = new Usuarios();
-	
 
 	if(isset($_POST['nome']) && !empty($_POST['nome'])) {
 		$nome = addslashes($_POST['nome']);
@@ -187,8 +183,6 @@
 	}
 	?>
 	
-
-
 		<div class="container medium">
 			<header>
 				<h2>Estamos felizes em ter você como nosso novo cliente.</h2>
@@ -221,7 +215,7 @@
 						<div class="form-group">
 							<input type="text" name="telefone" id="telefone" class="card-form-group" placeholder="Telefone" />
 						</div>
-						<input type="submit" value="Cadastrar" class="btn btn-primary"><!--<span class=" fa fa-check"></span></input>-->
+						<input type="submit" value="Cadastrar" class="btn btn-primary"/>
 					</form>
 				</div>
 			</main>
@@ -234,10 +228,10 @@
 			</ul>
 			<hr />
 		</div>
-	</div>
+	<div>
 	<footer>
 		<ul id="copyright">
-			<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net"></a></li>
 		</ul>
 	</footer>
 </div>
