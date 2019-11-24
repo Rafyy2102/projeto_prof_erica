@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <meta charset="UTF-8">
@@ -18,7 +17,6 @@
 </head>
 
 <body class="is-preload">
-
 
     <nav id="nav">
         <ul class="container">
@@ -42,8 +40,6 @@
                         <h1>Oi!! Você está logado!<strong><p>Creative S.A.</p></strong></h1>
                     </header>
 
-
-
                 </div>
             </div>
         </div>
@@ -63,14 +59,12 @@
 
       ?>
 
-
       <div class="container">
         <div class="row">
 
             <table class="table table-striped table-dark">
               <thead>
                 <tr>
-
                   <th scope="col">Nome</th>
                   <th scope="col">Rua </th>
                   <th scope="col">Bairro</th>
@@ -98,14 +92,7 @@
 </div>
 </div>
 
-
-
-
-
-
 </article>
-
-
 
 <!--envio de e-mail-->
 <article id="contact" class="wrapper style4">
@@ -122,11 +109,11 @@
         </ul>
         <hr />
     </div>
-</div>
+<div>
 <footer>
     <ul id="copyright">
         <li>&copy; Untitled. All rights reserved.</li>
-        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <li>Design: <a href="http://html5up.net"></a></li>
     </ul>
 </footer>
 </div>
