@@ -19,7 +19,6 @@
 
 <body class="is-preload">
 
-
     <nav id="nav">
         <ul class="container">
             <li><a href="#top">Creative S.A.</a></li>
@@ -42,8 +41,6 @@
                         <h1>Oi!! Você está logado!<strong><p>Creative S.A.</p></strong></h1>
                     </header>
 
-
-
                 </div>
             </div>
         </div>
@@ -62,7 +59,6 @@
       $resposta = $usuario->getUsuarios();
 
       ?>
-
 
       <div class="container">
         <div class="row">
@@ -98,14 +94,7 @@
 </div>
 </div>
 
-
-
-
-
-
 </article>
-
-
 
 <!--envio de e-mail-->
 <article id="contact" class="wrapper style4">
@@ -122,11 +111,11 @@
         </ul>
         <hr />
     </div>
-</div>
+<div>
 <footer>
     <ul id="copyright">
         <li>&copy; Untitled. All rights reserved.</li>
-        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <li>Design: <a href="http://html5up.net"></a></li>
     </ul>
 </footer>
 </div>
