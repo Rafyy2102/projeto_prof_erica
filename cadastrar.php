@@ -17,10 +17,8 @@
         $bairro = addslashes($_POST['bairro']);
         $cidade = addslashes($_POST['cidade']);
         $estado = addslashes($_POST['estado']);     
-		$senha = $_POST['senha'];  
-		
-		
-
+	$senha = $_POST['senha'];  
+	
 		if(!empty($nome) && !empty($email) && !empty($senha)) {
 			if($u->cadastrar($email,$nome,$cpf,$telefone,$cep,$rua,$bairro,$cidade,$estado,$senha)) {
 				?>
