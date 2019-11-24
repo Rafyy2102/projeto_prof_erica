@@ -58,7 +58,7 @@
 		<div class="form-group">
 			<input type="text" name="telefone" id="telefone" class="form-control" value="<?php echo$resp['telefone']?>" />
 		</div>
-		<input type="submit" value="Atualizar" class="btn btn-primary"><span class=" fa fa-check"></span></input>
+		<input type="submit" value="Atualizar" class="btn btn-primary"/>
 	</form>
 	</div>
 
