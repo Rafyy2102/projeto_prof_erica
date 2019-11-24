@@ -8,4 +8,14 @@
 .foto_item img {
 	width:150px;
 }
+.card-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 100px 10px;
+}
+
+.card-form-group{
+    padding: 10px 10px 70px 0;
+}
 
