@@ -4,8 +4,7 @@
 	<?php
 	require 'classes/usuarios.class.php';
 
-		
-		 if(isset($_POST['nome']) && !empty($_POST['nome'])) {
+	 if(isset($_POST['nome']) && !empty($_POST['nome'])) {
 		$nome = addslashes($_POST['nome']);
 		$cep = addslashes($_POST['email']);
 		$rua = addslashes($_POST['senha']);
@@ -17,11 +16,8 @@
 		$u = new Usuarios();
 	    $u->atualizarUsuario($nome, $email, $senha,$cep, $rua, $bairro, $cidade, $telefone, $_POST['id']);
 	}
-		
-	  
+  
 		?>
-
-
 	
 	<div class="row">
 
@@ -58,7 +54,7 @@
 		<div class="form-group">
 			<input type="text" name="telefone" id="telefone" class="form-control" value="<?php echo$resp['telefone']?>" />
 		</div>
-		<input type="submit" value="Atualizar" class="btn btn-primary"><span class=" fa fa-check"></span></input>
+		<input type="submit" value="Atualizar" class="btn btn-primary"/>
 	</form>
 	</div>
 
